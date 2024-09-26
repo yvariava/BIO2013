@@ -1,0 +1,5 @@
+1c) If the two clocks are 1 minute apart, this will give us the maximum time until they match as they move apart and closer together at the slowest rate. 
+    Taking 1 and 0, every hour that passes, they are 1 minute apart, until the gap is 1/2 a day, and then the faster clock slowly gets to the same time as the slower clock.
+    Logically, it would be a days worth of minutes, which is therefore 60 * 24 = 1440 hours
+    To test this, 61 * 1440 = 87840 and 60 * 1440 = 86400. 87840 - 86400 = 1440, the number of minutes in a day, meaning after 1440 hours, there is a day between them.
+    Since there is precisely a day between the two, they must be displaying the same time, giving us the final answer of 1440 hours which is correct.
